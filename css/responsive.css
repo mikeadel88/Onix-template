@@ -1,0 +1,61 @@
+@media screen and (max-width:922px){
+    .main-menu{
+        display: none;
+    }
+    .hero-img{
+        display: none;
+    }
+    .main-title{
+        width: 100%;
+    }
+    .about{
+        flex-direction: column;
+    }
+    .about-items{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .plans-items{
+        flex-direction: column;
+    }
+    .plan{
+        width: 90%;
+    }
+    .sub-dec{
+        width: 50%;
+    }
+    .info{
+        flex-direction: column;
+    }
+    .info span{
+        margin-bottom: 20px;
+    }
+    .video iframe{
+        min-height: 600px;
+        margin-bottom: 20px;
+    }
+    .videos{
+        flex-direction: column;
+    }
+    .menu{
+        width: 100%;
+    }
+    .thumb{
+        width: 100%;
+
+    }
+    .contacts{
+        flex-direction: column;
+    }
+    .contacts-form{
+        width: 90%;
+        left: 0;
+        padding: 20px 50px;
+        margin-top: 50px;
+    }
+    footer{
+        flex-direction: column;
+    }
+}
