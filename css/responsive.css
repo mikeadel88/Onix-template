@@ -1,6 +1,15 @@
-@media screen and (min-width:922px) {
+@media screen and (min-width:1200px) {
+    .open-menu,.close-menu{
+        display: none;
+    }
+}
+@media screen and (min-width:922px) and (max-width:1200px){
     .open-menu{
-        visibility: hidden;
+        display: none;
+    }
+    .hero-img{
+        width: 640px;
+        height: 526px;
     }
     .main-menu-item{
         padding: 5px 10px;
@@ -9,8 +18,8 @@
     }
 }
 @media screen and (max-width:922px) and (min-width: 768px){
-    .open-menu{
-        visibility: hidden;
+    .open-menu,.close-menu{
+        display: none;
     }
     .main-menu{
         display: flex;
@@ -59,6 +68,235 @@
     }
     .videos{
         flex-direction: column;
+    }
+    .menu{
+        width: 100%;
+    }
+    .thumb{
+        width: 100%;
+
+    }
+    .contacts{
+        flex-direction: column;
+    }
+    .contacts-form{
+        width: 90%;
+        left: 0;
+        padding: 20px 50px;
+        margin-top: 50px;
+    }
+    footer{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:768px) and (min-width: 600px){
+    .main-nav{
+        position: relative;
+    }
+    .mobile-button{
+        display: block;
+    }
+    .open-menu{
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 10%;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .open-menu.active{
+        visibility: hidden;
+    }
+    .close-menu{
+        display: none;
+        position: absolute;
+        top: 20px;
+        right: 10%;
+        font-size: 20px;
+        cursor: pointer; 
+    }
+    .close-menu.active {
+        display: block;
+    }
+    .main-menu{
+        display: none;
+        width: 100%;
+        position: absolute;
+        top: 120%;
+        right: 0;
+        left: 0;
+        z-index: 999;
+        background-color: #f7f7f7;
+        text-align: center;
+    }
+    
+    .main-menu-item{
+        padding: 10px 15px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+ 
+    .button{
+        padding: 10px 10px;
+    }
+    .hero-img{
+        display: none;
+    }
+    .main-title{
+        width: 100%;
+    }
+    .about{
+        flex-direction: column;
+    }
+    .about-items{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .plans-items{
+        flex-direction: column;
+    }
+    .plan{
+        width: 90%;
+    }
+    .sub-dec{
+        width: 50%;
+    }
+    .info{
+        flex-direction: column;
+    }
+    .info span{
+        margin-bottom: 20px;
+    }
+    .video iframe{
+        min-height: 600px;
+        margin-bottom: 20px;
+    }
+    .videos{
+        flex-direction: column;
+    }
+    .menu{
+        width: 100%;
+    }
+    .thumb{
+        width: 100%;
+
+    }
+    .contacts{
+        flex-direction: column;
+    }
+    .contacts-form{
+        width: 90%;
+        left: 0;
+        padding: 20px 50px;
+        margin-top: 50px;
+    }
+    footer{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:600px) {
+    .main-nav{
+        position: relative;
+    }
+    .mobile-button{
+        display: block;
+    }
+    .open-menu{
+        visibility: none;
+        position: absolute;
+        top: 20px;
+        right: 10%;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .open-menu.active{
+        visibility: hidden;
+    }
+    .close-menu{
+        display: none;
+        position: absolute;
+        top: 20px;
+        right: 10%;
+        font-size: 20px;
+        cursor: pointer; 
+    }
+    .close-menu.active {
+        display: block;
+    }
+    .main-menu{
+        display: none;
+        width: 100%;
+        position: absolute;
+        top: 120%;
+        right: 0;
+        left: 0;
+        z-index: 999;
+        background-color: #f7f7f7;
+        text-align: center;
+    }
+    
+    .main-menu-item{
+        padding: 10px 15px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+ 
+    .button{
+        padding: 10px 10px;
+    }
+    .hero-img{
+        display: none;
+    }
+    .main-title{
+        width: 100%;
+    }
+    .about{
+        flex-direction: column;
+    }
+    .about-items{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .plans-items{
+        flex-direction: column;
+    }
+    .plan{
+        width: 90%;
+    }
+    .sub-dec{
+        width: 50%;
+    }
+    .info{
+        flex-direction: column;
+    }
+    .info span{
+        margin-bottom: 20px;
+    }
+    .video iframe{
+        min-height: 600px;
+        margin-bottom: 20px;
+    }
+    .videos{
+        flex-direction: column;
+    }
+    .left-about-img img{
+        max-width: 100%;
+    }
+    .sub-form{
+        padding: 5px 10px;
+    }
+    .sub-form .sub-btn{
+        padding: 10px 20px;
+        width: 30%;
+        text-align: center;
+    }
+    .sub-form input{
+        padding: 10px 15px;
+        font-size: 12px;
     }
     .menu{
         width: 100%;

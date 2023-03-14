@@ -2,10 +2,10 @@
 $(document).ready(function(){
     $(window).scroll(()=>{
         if ($(this).scrollTop() >= $(".servies").offset().top){
-            $(".main-nav").addClass("main-nav-fixed");
+            $(".header-menu").addClass("main-nav-fixed");
         }
         else{
-            $(".main-nav").removeClass("main-nav-fixed")
+            $(".header-menu").removeClass("main-nav-fixed")
         }
     })
     $(".projects").owlCarousel({
@@ -53,5 +53,14 @@ $(document).ready(function(){
             }
         }
     });
-
+    $(".main-menu-item").click((e)=>{
+        let getID=$(e.target).attr("href")
+        console.log(getID)
+        $("html,body").animate({"scrollTop":`${$(getID).offset().top}px`},500)
+    })
+    $(".mobile-button").click(()=>{
+        $(".open-menu").toggleClass("active");;
+        $(".close-menu").toggleClass("active");
+        $(".main-menu").slideToggle(200)
+    })
   });

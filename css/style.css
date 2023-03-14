@@ -7,11 +7,13 @@
 header{
     overflow: hidden;
 }
+
 .main-nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 10px auto;
+    margin: 0px auto;
+    padding-top: 10px;
     width: 90%;
     background-color: transparent;
 }
@@ -40,17 +42,25 @@ header{
     font-size: 16px;
     cursor: pointer;
 }
-.main-menu-item:hover{
+.main-menu-item a{
+    text-decoration: none;
+    color: #242424;
+}
+.main-menu-item a:hover{
 color: #ff695f;
 }
-.button{
+.mobile-button{
+    display: none;
+}
+.button a{
     color: #fff;
     background-color: #ff695f;
     border-radius: 25px;
     padding: 10px 25px;
     transition: all 1s ease;
 }
-.button:hover{
+.button a:hover{
+    color: #fff;
     background-color: #03a4ed;
 }
 /* END Nav-Bar */
@@ -89,6 +99,7 @@ color: #ff695f;
 .main-title{
     width: 50%;
     background-color: transparent;
+    z-index: 99;
 }
 .main-title h2 {
     font-size: 50px;

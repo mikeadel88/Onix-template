@@ -12,21 +12,26 @@
 </head>
 <body>
     <header>
-        <nav class="main-nav">
-            <div class="logo"><img src="images/logo.png"></div>
-            <ul class="main-menu">
-                <li class="main-menu-item">Home</li>
-                <li class="main-menu-item">Services</li>
-                <li class="main-menu-item">About</li>
-                <li class="main-menu-item">Portfolio</li>
-                <li class="main-menu-item">Videos</li>
-                <li class="main-menu-item">Contact Us</li>
-                <li class="main-menu-item">
-                    <div class="button">Contact Us Now</div>
-                </li>
-            </ul>
-        </nav>
-        <span><i class="fa-solid fa-bars open-menu"></i></span>
+        <div class="header-menu">
+            <nav class="main-nav">
+                <div class="logo"><img src="images/logo.png"></div>
+                <ul class="main-menu">
+                    <li class="main-menu-item"><a href="#home">Home</a></li>
+                    <li class="main-menu-item"><a href="#service">Services</a></li>
+                    <li class="main-menu-item"><a href="#about">About</a></li>
+                    <li class="main-menu-item"><a href="#protofolio">Portofolio</a></li>
+                    <li class="main-menu-item"><a href="#video">Videos</a></li>
+                    <li class="main-menu-item">
+                        <div class="button"> <a href="#contactus">Contact Us Now</a> </div>
+                    </li>
+                </ul>
+                <div class="mobile-button">
+                <span class="open-menu"><i class="fa-solid fa-bars "></i></span>
+                <span class="close-menu"><i class="fa-solid fa-xmark"></i></span>
+            </div>
+            </nav>
+        </div>
+        
         <div class="banner">
             <div class="main-title">
                 <h6>Welcome to Onix Digital</h6>
@@ -42,7 +47,7 @@
             
         </div>
     </header>
-    <section class="servies">
+    <section class="servies" id="service">
         <div class="left-img">
             <img src="images/services-left-dec.png">
         </div>
@@ -81,7 +86,7 @@
             </div>
         </div>
     </section>
-    <section class="about">
+    <section class="about" id="about">
         <div class="left-about-img">
             <img src="images/about-left-image.png" alt="">
         </div>
@@ -110,7 +115,7 @@
             </div>
         </div>
     </section>
-    <section class="portfolio">
+    <section class="portfolio" id="protofolio">
         <div class="left-dec-img">
             <img src="images/portfolio-left-dec.png" alt="">
         </div>
@@ -228,7 +233,7 @@
             <button class="sub-btn" type="submit">Subscribe</button>
         </div>
     </section>
-    <section class="videos">
+    <section class="videos" id="video">
         <div class="main-video">
             <div class="video-label">
                 <h3>Project One</h3>
@@ -272,7 +277,7 @@
             </div>
         </div>
     </section>
-    <section class="contacts"> 
+    <section class="contacts" id="contactus"> 
         <div class="left-dec">
             <img src="images/contact-left-dec.png" alt="">
         </div>       
