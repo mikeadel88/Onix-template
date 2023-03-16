@@ -229,7 +229,6 @@ color: #ff695f;
 }
 .right-about-text h2{
     font-size: 30px;
-    margin-right: 20px;
 }
 .right-about-text h2 span{
     color: #03a4ed;
@@ -241,11 +240,10 @@ color: #ff695f;
 .about-items {
     display: flex;
     justify-content: flex-start;
-    margin-top: 20px;
+    margin: 20px 0;
 }
 .about-item{
-    margin-right: 20px;
-
+    margin: 20px 10px;
 }
 .about-item h2{
     font-size: 50px;

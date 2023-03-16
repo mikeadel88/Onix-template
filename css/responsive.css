@@ -154,11 +154,17 @@
         justify-content: center;
         text-align: center;
     }
+    .about-item{
+        align-self: center;
+    }
     .plans-items{
         flex-direction: column;
     }
     .plan{
         width: 90%;
+        margin: 10px ;
+        padding: 10px;
+
     }
     .sub-dec{
         width: 50%;
@@ -189,7 +195,7 @@
     .contacts-form{
         width: 90%;
         left: 0;
-        padding: 20px 50px;
+        padding: 20px 30px;
         margin-top: 50px;
     }
     footer{
@@ -266,9 +272,17 @@
     }
     .plan{
         width: 90%;
+        margin: 10px ;
+        padding: 10px;
+
     }
     .sub-dec{
         width: 50%;
+    }
+    .sub-dec img{
+        position: absolute;
+        width: 100%;
+        right: 0;
     }
     .info{
         flex-direction: column;
@@ -311,7 +325,7 @@
     .contacts-form{
         width: 90%;
         left: 0;
-        padding: 20px 50px;
+        padding: 20px 30px;
         margin-top: 50px;
     }
     footer{

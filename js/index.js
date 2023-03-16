@@ -1,7 +1,7 @@
 
 $(document).ready(function(){
     $(window).scroll(()=>{
-        if ($(this).scrollTop() >= $(".servies").offset().top){
+        if ($(this).scrollTop() >= $(".servies").offset().top-100){
             $(".header-menu").addClass("main-nav-fixed");
         }
         else{
