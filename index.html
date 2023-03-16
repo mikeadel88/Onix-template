@@ -7,6 +7,7 @@
     <link href="css/all.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/owl.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="css/responsive.css">
     <title>Onix</title>
 </head>
@@ -87,26 +88,26 @@
         </div>
     </section>
     <section class="about" id="about">
-        <div class="left-about-img">
+        <div class="left-about-img" data-aos="flip-up" data-aos-offset="500">
             <img src="images/about-left-image.png" alt="">
         </div>
-        <div class="right-about-text">
+        <div class="right-about-text" data-aos="flip-down" >
             <h2>Grow Your Website With <span>Our SEO Tools</span> & <em>Project </em> Management</h2>
             <p>You can browse free HTML templates on Too CSS website. Visit the website and explore latest website templates for your projects.</p>
             <div class="about-items">
-                <div class="about-item">
+                <div class="about-item" >
                     <div class="about-icon"><img src="images/service-icon-01.png"></div>
                     <h2>320</h2>
                     <span>SEO Projects</span>
                     <p>Lorem ipsum dolor sit amet consectetur.</p>
                 </div>
-                <div class="about-item">
+                <div class="about-item" >
                     <div class="about-icon"><img src="images/service-icon-02.png"></div>
                     <h2>640</h2>
                     <span>Websites</span>
                     <p>Lorem ipsum dolor sit amet consectetur.</p>
                 </div>
-                <div class="about-item">
+                <div class="about-item" >
                     <div class="about-icon"><img src="images/service-icon-03.png"></div>
                     <h2>120</h2>
                     <span>Satisfied Clients</span>
@@ -184,7 +185,7 @@
             <p>OUR PLANS</p>
         </div>
         <div class="plans-items">
-            <div class="plan">
+            <div class="plan" data-aos="fade-right" data-aos-offset="200">
                 <h3>Starter Plan</h3>
                 <span>$160/mo</span>
                 <h2>$140</h2>
@@ -196,7 +197,7 @@
                 </ul>
                 <div class="plan-btn">Get Started</div>
             </div>
-            <div class="plan">
+            <div class="plan" data-aos="fade-up" data-aos-offset="200">
                 <h3>Standard Plan</h3>
                 <span>$240/mo</span>
                 <h2>$200</h2>
@@ -206,9 +207,9 @@
                     <li>30 SEO checkups</li>
                     <li>Pro Support</li>
                 </ul>
-                <div class="plan-btn">Get it Now</div>
+                <div class="plan-btn" >Get it Now</div>
             </div>
-            <div class="plan">
+            <div class="plan"data-aos="fade-left" data-aos-offset="200">
                 <h3>Starter Plan</h3>
                 <span>$380/mo</span>
                 <h2>$300</h2>
@@ -352,5 +353,9 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/owl-carousel.js"></script>
     <script src="js/index.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
